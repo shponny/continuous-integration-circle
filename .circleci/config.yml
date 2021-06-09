@@ -35,7 +35,7 @@ jobs:
           
       - run:
           name: build dependencies
-          command: bundle install
+          command: bundle install --full-index
 
       - run:
           name: build the jekyll site
